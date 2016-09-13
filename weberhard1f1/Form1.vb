@@ -25,6 +25,7 @@ Public Class MainForm
     End Sub
 
     Private Sub btnPrint_Click(sender As Object, e As EventArgs) Handles btnPrint.Click
+        'Prints screen
         btnCalc.Visible = False
         btnClear.Visible = False
         btnPrint.Visible = False
