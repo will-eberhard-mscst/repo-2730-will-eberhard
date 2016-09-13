@@ -5,7 +5,7 @@
 
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
         'Does the math
-        lblTax.Text = Val(txtValue.Text) * 1.5
+        lblTax.Text = Val(txtValue.Text) * 0.015
         lblTax.Text = Format(lblTax.Text, "currency")
     End Sub
 

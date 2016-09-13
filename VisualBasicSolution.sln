@@ -9,7 +9,9 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex1c1", "weberhard
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex1d1", "weberhardex1d1\weberhardex1d1.vbproj", "{7691698E-10E6-4345-BDAA-97C98B4DAACE}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex1e1", "weberhardex1e1\weberhardex1e1.vbproj", "{6561F37D-DF96-41A1-B742-827B6202DC59}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex1e2", "weberhardex1e1\weberhardex1e2.vbproj", "{6561F37D-DF96-41A1-B742-827B6202DC59}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex1f1", "weberhard1f1\weberhardex1f1.vbproj", "{2FB80F41-634F-4FBE-A6AE-553E7264B04C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6561F37D-DF96-41A1-B742-827B6202DC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6561F37D-DF96-41A1-B742-827B6202DC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6561F37D-DF96-41A1-B742-827B6202DC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB80F41-634F-4FBE-A6AE-553E7264B04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB80F41-634F-4FBE-A6AE-553E7264B04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB80F41-634F-4FBE-A6AE-553E7264B04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB80F41-634F-4FBE-A6AE-553E7264B04C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
