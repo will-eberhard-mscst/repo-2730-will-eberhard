@@ -27,6 +27,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex2c1", "weberhard
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex2d1", "weberhardex2d1\weberhardex2d1.vbproj", "{182EDE2F-7715-4E18-8BD9-744722EC2765}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex2e1", "weberhardex2e1\weberhardex2e1.vbproj", "{ECDF3A95-670F-4FA4-8249-011A3256CC9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{182EDE2F-7715-4E18-8BD9-744722EC2765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{182EDE2F-7715-4E18-8BD9-744722EC2765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{182EDE2F-7715-4E18-8BD9-744722EC2765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDF3A95-670F-4FA4-8249-011A3256CC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDF3A95-670F-4FA4-8249-011A3256CC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDF3A95-670F-4FA4-8249-011A3256CC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDF3A95-670F-4FA4-8249-011A3256CC9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
