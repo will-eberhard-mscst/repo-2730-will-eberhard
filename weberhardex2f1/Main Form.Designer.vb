@@ -43,15 +43,15 @@ Partial Class frmMain
         Me.Label6 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.View = New System.Windows.Forms.GroupBox()
-        Me.radQueen = New System.Windows.Forms.RadioButton()
-        Me.radKing = New System.Windows.Forms.RadioButton()
-        Me.radStandard = New System.Windows.Forms.RadioButton()
-        Me.radAtrium = New System.Windows.Forms.RadioButton()
-        Me.chkParkingFee = New System.Windows.Forms.CheckBox()
-        Me.lblParkingFee = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.lblParkingFee = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.radKing = New System.Windows.Forms.RadioButton()
+        Me.radQueen = New System.Windows.Forms.RadioButton()
+        Me.View = New System.Windows.Forms.GroupBox()
+        Me.radAtrium = New System.Windows.Forms.RadioButton()
+        Me.radStandard = New System.Windows.Forms.RadioButton()
+        Me.chkParkingFee = New System.Windows.Forms.CheckBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
@@ -259,6 +259,24 @@ Partial Class frmMain
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Charges"
         '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(3, 128)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(60, 20)
+        Me.Label10.TabIndex = 3
+        Me.Label10.Text = "Parking:"
+        '
+        'lblParkingFee
+        '
+        Me.lblParkingFee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblParkingFee.Location = New System.Drawing.Point(87, 125)
+        Me.lblParkingFee.Name = "lblParkingFee"
+        Me.lblParkingFee.Size = New System.Drawing.Size(93, 26)
+        Me.lblParkingFee.TabIndex = 8
+        Me.lblParkingFee.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.radKing)
@@ -270,16 +288,15 @@ Partial Class frmMain
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Type"
         '
-        'View
+        'radKing
         '
-        Me.View.Controls.Add(Me.radAtrium)
-        Me.View.Controls.Add(Me.radStandard)
-        Me.View.Location = New System.Drawing.Point(276, 26)
-        Me.View.Name = "View"
-        Me.View.Size = New System.Drawing.Size(106, 107)
-        Me.View.TabIndex = 4
-        Me.View.TabStop = False
-        Me.View.Text = "View"
+        Me.radKing.AutoSize = True
+        Me.radKing.Location = New System.Drawing.Point(25, 62)
+        Me.radKing.Name = "radKing"
+        Me.radKing.Size = New System.Drawing.Size(86, 24)
+        Me.radKing.TabIndex = 1
+        Me.radKing.Text = "One &king"
+        Me.radKing.UseVisualStyleBackColor = True
         '
         'radQueen
         '
@@ -293,15 +310,26 @@ Partial Class frmMain
         Me.radQueen.Text = "Two &queen"
         Me.radQueen.UseVisualStyleBackColor = True
         '
-        'radKing
+        'View
         '
-        Me.radKing.AutoSize = True
-        Me.radKing.Location = New System.Drawing.Point(25, 62)
-        Me.radKing.Name = "radKing"
-        Me.radKing.Size = New System.Drawing.Size(86, 24)
-        Me.radKing.TabIndex = 1
-        Me.radKing.Text = "One &king"
-        Me.radKing.UseVisualStyleBackColor = True
+        Me.View.Controls.Add(Me.radAtrium)
+        Me.View.Controls.Add(Me.radStandard)
+        Me.View.Location = New System.Drawing.Point(276, 26)
+        Me.View.Name = "View"
+        Me.View.Size = New System.Drawing.Size(106, 107)
+        Me.View.TabIndex = 4
+        Me.View.TabStop = False
+        Me.View.Text = "View"
+        '
+        'radAtrium
+        '
+        Me.radAtrium.AutoSize = True
+        Me.radAtrium.Location = New System.Drawing.Point(6, 62)
+        Me.radAtrium.Name = "radAtrium"
+        Me.radAtrium.Size = New System.Drawing.Size(72, 24)
+        Me.radAtrium.TabIndex = 1
+        Me.radAtrium.Text = "A&trium"
+        Me.radAtrium.UseVisualStyleBackColor = True
         '
         'radStandard
         '
@@ -315,16 +343,6 @@ Partial Class frmMain
         Me.radStandard.Text = "&Standard"
         Me.radStandard.UseVisualStyleBackColor = True
         '
-        'radAtrium
-        '
-        Me.radAtrium.AutoSize = True
-        Me.radAtrium.Location = New System.Drawing.Point(6, 62)
-        Me.radAtrium.Name = "radAtrium"
-        Me.radAtrium.Size = New System.Drawing.Size(72, 24)
-        Me.radAtrium.TabIndex = 1
-        Me.radAtrium.Text = "A&trium"
-        Me.radAtrium.UseVisualStyleBackColor = True
-        '
         'chkParkingFee
         '
         Me.chkParkingFee.AutoSize = True
@@ -334,24 +352,6 @@ Partial Class frmMain
         Me.chkParkingFee.TabIndex = 5
         Me.chkParkingFee.Text = "&Vehicle parking fee"
         Me.chkParkingFee.UseVisualStyleBackColor = True
-        '
-        'lblParkingFee
-        '
-        Me.lblParkingFee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblParkingFee.Location = New System.Drawing.Point(87, 125)
-        Me.lblParkingFee.Name = "lblParkingFee"
-        Me.lblParkingFee.Size = New System.Drawing.Size(93, 26)
-        Me.lblParkingFee.TabIndex = 8
-        Me.lblParkingFee.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(3, 128)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(60, 20)
-        Me.Label10.TabIndex = 3
-        Me.Label10.Text = "Parking:"
         '
         'frmMain
         '
