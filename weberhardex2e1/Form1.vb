@@ -29,7 +29,7 @@ Public Class Form1
         Double.TryParse(txtAmount.Text, amount)
         savannah = txtCard.Text.ToUpper
 
-        If amount < 99 OrElse savannah <> "Y" Then
+        If amount < 100 OrElse savannah <> "Y" Then
             shipping = 9
         Else
             shipping = 0
@@ -65,7 +65,7 @@ Public Class Form1
         Double.TryParse(txtSales.Text, sales)
         ID = txtID.Text.ToUpper
 
-        If (ID <> "A1" OrElse ID <> "B2" OrElse ID <> "C3") AndAlso sales < 25000 Then
+        If (ID <> "A1" AndAlso ID <> "B2" AndAlso ID <> "C3") OrElse sales < 25000 Then
             com = sales * 0.12
         Else
             com = sales * 0.15

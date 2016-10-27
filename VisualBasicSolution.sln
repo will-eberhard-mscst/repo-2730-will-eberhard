@@ -29,6 +29,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex2d1", "weberhard
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex2e1", "weberhardex2e1\weberhardex2e1.vbproj", "{ECDF3A95-670F-4FA4-8249-011A3256CC9A}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Mistake", "..\..\..\..\..\Downloads\Visual Basic Files\VB2015\Chap04\Treeline Solution\Treeline Project\Mistake.vbproj", "{78F6264D-D898-4ADB-B04E-313E7B40952A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "weberhardex2f1", "weberhardex2f1\weberhardex2f1.vbproj", "{325442E9-FA1F-420F-A209-E18A9234F2A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{ECDF3A95-670F-4FA4-8249-011A3256CC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECDF3A95-670F-4FA4-8249-011A3256CC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECDF3A95-670F-4FA4-8249-011A3256CC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F6264D-D898-4ADB-B04E-313E7B40952A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F6264D-D898-4ADB-B04E-313E7B40952A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F6264D-D898-4ADB-B04E-313E7B40952A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F6264D-D898-4ADB-B04E-313E7B40952A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325442E9-FA1F-420F-A209-E18A9234F2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325442E9-FA1F-420F-A209-E18A9234F2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325442E9-FA1F-420F-A209-E18A9234F2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325442E9-FA1F-420F-A209-E18A9234F2A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
