@@ -4,7 +4,7 @@ Option Infer Off
 
 Public Class weberhard2i
     Private Sub btnDisplay_Click(sender As Object, e As EventArgs) Handles btnDisplay.Click
-        '3
+        '#3
         Dim word As String = txt3.Text
         word = word.Remove(0, 1)
         word = word.Insert(0, "cr")
