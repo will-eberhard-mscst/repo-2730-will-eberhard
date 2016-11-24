@@ -1,7 +1,7 @@
 ﻿Option Strict On
 Option Explicit On
 Option Infer Off
-
+'weberhard2C
 Public Class Form1
     Private str1, str2, str3 As String
     Private byte1, byte2, byte3 As Byte

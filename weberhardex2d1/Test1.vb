@@ -2,7 +2,7 @@
 Option Explicit On
 Option Infer Off
 
-Public Class Form1
+Public Class Test1
     Private Sub btnConvert_Click(sender As Object, e As EventArgs) Handles btnConvert.Click
         Dim dollar As Double
         Dim euro As Double
@@ -70,6 +70,7 @@ Public Class Form1
         End If
         'display
         lblDue.Text = Convert.ToString(total)
+
     End Sub
 
     Private Sub btnCalc2_Click(sender As Object, e As EventArgs) Handles btnCalc2.Click
